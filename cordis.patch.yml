@@ -1,0 +1,8 @@
+# dsh-plugin-vision bundle patch.
+# Applied as one bundle layer: inserts the vision-analysis tool row.
+# The module's exported `name` ("tool-vision") matches the entry id below.
+# Configuration comes from the module's Config schema (env-backed defaults);
+# override any field here or in the profile's own cordis.patch.yml.
+- insert:
+    - id: tool-vision
+      name: 'dsh-plugin-vision'
