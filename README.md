@@ -75,7 +75,7 @@ dsh-plugin-vision/
 ### 方式一：Web 侧边栏（推荐，desktop 应用）
 
 1. 打开 DSH Web 界面 → 左侧 **Plugins（插件）** 页。
-2. 选择 **安装插件（Install bundle）**，来源填本地路径（本插件的绝对路径，例如 `C:\Users\<你>\Documents\deepseek-harness\default-workspace\dsh-plugin-vision`）。
+2. 选择 **安装插件（Install bundle）**，来源填本地路径(即解压后的根目录).
 3. 插件管理器会用 pnpm 安装、启用该 bundle 并应用其 `cordis.patch.yml`。
 4. 重启/刷新会话后，模型即可使用 `analyze_image` 工具。
 
