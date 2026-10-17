@@ -14,11 +14,16 @@
     "README.md"
   ],
   "license": "MIT",
+  "repository": "https://github.com/Wyatt5341/dsh-plugin-vision.git",
   "engines": {
     "node": ">=18"
   },
   "dsh": {
     "manifestVersion": 1,
+    "permissions": {
+      "network": true,
+      "storage": true
+    },
     "bundle": {
       "patch": "./cordis.patch.yml"
     }
